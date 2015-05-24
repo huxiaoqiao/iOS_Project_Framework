@@ -1,6 +1,6 @@
 # iOS项目工程通用架构
 参考:http://limboy.me/ios/2013/09/23/build-ios-application.html
-.
+``` Objective-C
 ├── iOS_Project_Framework
 │   ├── EntryPoint：这个目录下放的是AppDelegate.h(m)，是整个应用的入口文件
 │   ├── Models：这个目录下放一些与数据相关的Model文件：
@@ -38,3 +38,4 @@
 │   │   ├── Collection
 │   │   └── ……
 │   ├── Resources：这个目录下放的是app会用到的一些资源，主要是图片。
+```
