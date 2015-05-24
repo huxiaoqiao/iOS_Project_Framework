@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4498916F1B1192620023BA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4498916E1B1192620023BA09 /* main.m */; };
-		449891721B1192620023BA09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891711B1192620023BA09 /* AppDelegate.m */; };
-		449891751B1192620023BA09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891741B1192620023BA09 /* ViewController.m */; };
 		449891781B1192620023BA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449891761B1192620023BA09 /* Main.storyboard */; };
 		4498917A1B1192620023BA09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449891791B1192620023BA09 /* Images.xcassets */; };
 		4498917D1B1192620023BA09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4498917B1B1192620023BA09 /* LaunchScreen.xib */; };
 		449891891B1192620023BA09 /* iOS_Project_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891881B1192620023BA09 /* iOS_Project_FrameworkTests.m */; };
+		449891A81B1192B00023BA09 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891961B1192B00023BA09 /* BaseNavigationController.m */; };
+		449891A91B1192B00023BA09 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891981B1192B00023BA09 /* BaseTableViewController.m */; };
+		449891AA1B1192B00023BA09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4498919A1B1192B00023BA09 /* BaseViewController.m */; };
+		449891AB1B1192B00023BA09 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891A41B1192B00023BA09 /* BaseModel.m */; };
+		449891B11B11935F0023BA09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891AE1B11935F0023BA09 /* AppDelegate.m */; };
+		449891B21B11935F0023BA09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449891B01B11935F0023BA09 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,28 @@
 		449891691B1192620023BA09 /* iOS_Project_Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Project_Framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4498916D1B1192620023BA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4498916E1B1192620023BA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		449891701B1192620023BA09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		449891711B1192620023BA09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		449891731B1192620023BA09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		449891741B1192620023BA09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		449891771B1192620023BA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		449891791B1192620023BA09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4498917C1B1192620023BA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		449891821B1192620023BA09 /* iOS_Project_FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Project_FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449891871B1192620023BA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449891881B1192620023BA09 /* iOS_Project_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Project_FrameworkTests.m; sourceTree = "<group>"; };
+		449891951B1192B00023BA09 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		449891961B1192B00023BA09 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		449891971B1192B00023BA09 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		449891981B1192B00023BA09 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		449891991B1192B00023BA09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4498919A1B1192B00023BA09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4498919E1B1192B00023BA09 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		4498919F1B1192B00023BA09 /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		449891A01B1192B00023BA09 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		449891A11B1192B00023BA09 /* VendorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendorMacro.h; sourceTree = "<group>"; };
+		449891A31B1192B00023BA09 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		449891A41B1192B00023BA09 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		449891AD1B11935F0023BA09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		449891AE1B11935F0023BA09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		449891AF1B11935F0023BA09 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		449891B01B11935F0023BA09 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +97,14 @@
 		4498916B1B1192620023BA09 /* iOS_Project_Framework */ = {
 			isa = PBXGroup;
 			children = (
-				449891701B1192620023BA09 /* AppDelegate.h */,
-				449891711B1192620023BA09 /* AppDelegate.m */,
-				449891731B1192620023BA09 /* ViewController.h */,
-				449891741B1192620023BA09 /* ViewController.m */,
+				449891AC1B11935F0023BA09 /* EntryPoint */,
+				449891921B1192B00023BA09 /* General */,
+				4498919C1B1192B00023BA09 /* Helpers */,
+				4498919D1B1192B00023BA09 /* Macro */,
+				449891A21B1192B00023BA09 /* Models */,
+				449891A51B1192B00023BA09 /* Resources */,
+				449891A61B1192B00023BA09 /* Sections */,
+				449891A71B1192B00023BA09 /* Vendors */,
 				449891761B1192620023BA09 /* Main.storyboard */,
 				449891791B1192620023BA09 /* Images.xcassets */,
 				4498917B1B1192620023BA09 /* LaunchScreen.xib */,
@@ -117,6 +137,102 @@
 				449891871B1192620023BA09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		449891921B1192B00023BA09 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				449891931B1192B00023BA09 /* Categories */,
+				449891941B1192B00023BA09 /* Classes */,
+				4498919B1B1192B00023BA09 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		449891931B1192B00023BA09 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		449891941B1192B00023BA09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				449891951B1192B00023BA09 /* BaseNavigationController.h */,
+				449891961B1192B00023BA09 /* BaseNavigationController.m */,
+				449891971B1192B00023BA09 /* BaseTableViewController.h */,
+				449891981B1192B00023BA09 /* BaseTableViewController.m */,
+				449891991B1192B00023BA09 /* BaseViewController.h */,
+				4498919A1B1192B00023BA09 /* BaseViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4498919B1B1192B00023BA09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4498919C1B1192B00023BA09 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4498919D1B1192B00023BA09 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4498919E1B1192B00023BA09 /* AppMacro.h */,
+				4498919F1B1192B00023BA09 /* NotificationMacro.h */,
+				449891A01B1192B00023BA09 /* UtilsMacro.h */,
+				449891A11B1192B00023BA09 /* VendorMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		449891A21B1192B00023BA09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				449891A31B1192B00023BA09 /* BaseModel.h */,
+				449891A41B1192B00023BA09 /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		449891A51B1192B00023BA09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		449891A61B1192B00023BA09 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		449891A71B1192B00023BA09 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		449891AC1B11935F0023BA09 /* EntryPoint */ = {
+			isa = PBXGroup;
+			children = (
+				449891AD1B11935F0023BA09 /* AppDelegate.h */,
+				449891AE1B11935F0023BA09 /* AppDelegate.m */,
+				449891AF1B11935F0023BA09 /* ViewController.h */,
+				449891B01B11935F0023BA09 /* ViewController.m */,
+			);
+			path = EntryPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449891751B1192620023BA09 /* ViewController.m in Sources */,
-				449891721B1192620023BA09 /* AppDelegate.m in Sources */,
+				449891B21B11935F0023BA09 /* ViewController.m in Sources */,
+				449891A81B1192B00023BA09 /* BaseNavigationController.m in Sources */,
+				449891AA1B1192B00023BA09 /* BaseViewController.m in Sources */,
+				449891B11B11935F0023BA09 /* AppDelegate.m in Sources */,
+				449891AB1B1192B00023BA09 /* BaseModel.m in Sources */,
 				4498916F1B1192620023BA09 /* main.m in Sources */,
+				449891A91B1192B00023BA09 /* BaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
